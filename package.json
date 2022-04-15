@@ -1,0 +1,23 @@
+{
+  "name": "presupuesto-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "npm run system-test",
+    "system-test": "mocha src/app.test.js --timeout=60000 --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "remove-one": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "supertest": "^6.1.6"
+  }
+}
